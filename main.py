@@ -15,6 +15,6 @@ if __name__  == "__main__":
     
     logger.info('==== pytrading start ====')
     bf = bitflyer.RealtimeAPI() # bitflyer.RealtimeAPI()とbitflyer.RealtimeAPIの違いは何?
-
+    bf.run()
 
     # /Users/iwamotokosuke/.pyenv/versions/3.8.5/lib/python3.8/site-packages
